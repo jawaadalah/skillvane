@@ -1,0 +1,42 @@
+{
+  "tool": "skillvane",
+  "version": "0.1.0",
+  "period": "weekly",
+  "date": "2026-11-24",
+  "top": [
+    "backnotprop/plannotator",
+    "google-labs-code/stitch-skills",
+    "GoogleChrome/modern-web-guidance-src",
+    "alibaba/open-code-review",
+    "mvanhorn/last30days-skill"
+  ],
+  "patterns": {
+    "cli-anything": [
+      "google-labs-code/stitch-skills"
+    ],
+    "code-review": [
+      "alibaba/open-code-review"
+    ],
+    "plan-annotation": [
+      "backnotprop/plannotator"
+    ],
+    "research-synthesis": [
+      "mvanhorn/last30days-skill"
+    ],
+    "web-guidance": [
+      "GoogleChrome/modern-web-guidance-src"
+    ]
+  },
+  "files": [
+    "ATTRIBUTION.md",
+    "LICENSE",
+    "SKILL.md",
+    "patterns.md",
+    "templates/cli-anything/SKILL.md",
+    "templates/code-review/SKILL.md",
+    "templates/plan-annotation/SKILL.md",
+    "templates/research-synthesis/SKILL.md",
+    "templates/web-guidance/SKILL.md",
+    "manifest.json"
+  ]
+}
